@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => {
 
     return (
@@ -7,10 +9,10 @@ const Header = () => {
                 <p>The go-to page for all things Noah.</p>
                 <br></br>
                 <h2>
-                    <a href="portfolio.html">Home</a> | 
-                    <a href="resume.html">Resume</a> | 
-                    <a href="projects.html">Projects</a> | 
-                    <a href="contact.html">Contact</a>
+                    <Link to='/'>Home</Link> |  
+                    <Link to='/projects'>Projects</Link> | 
+                    <Link to='/resume'>Resume</Link> |  
+                    <Link to='/contact'>Contact</Link>
                 </h2>
             </header>
         </div>
