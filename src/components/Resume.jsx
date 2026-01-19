@@ -1,10 +1,14 @@
+import resume from '../assets/SWD-Resume-Noah-Belman.pdf';
+
 const Resume = () => {
     return (
         <>
             <section>
                 <h1>Resume</h1>
 
-                {/* TODO: button to download resume */}
+                <a href={resume} download='Resume-Noah-Belman.pdf'>
+                    Download PDF
+                </a>
 
                 <h2>Education</h2>
                 <div>
@@ -31,8 +35,8 @@ const Resume = () => {
                         <li>
                             <strong>Administrative Assistant</strong> - PennReach (2025 - current)
                             <ul>
-                                <li>Analyzed data to optimize internal processes</li>
-                                <li>Supported technology adoption across departments</li>
+                                <li>Analyze data to optimize internal processes</li>
+                                <li>Support technology adoption across departments</li>
                             </ul>
                         </li>
                         <li>
