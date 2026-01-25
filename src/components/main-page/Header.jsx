@@ -3,19 +3,15 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 
     return (
-        <div>
-            <header>
-                <h1>Welcome to my portfolio!</h1>
-                <p>The go-to page for all things Noah.</p>
-                <br></br>
-                <h2>
-                    <Link to='/'>Home</Link> |  
-                    <Link to='/projects'>Projects</Link> | 
-                    <Link to='/resume'>Resume</Link> |  
-                    <Link to='/contact'>Contact</Link>
-                </h2>
-            </header>
-        </div>
+        <header className='header-container'>
+            <h1>Noah Belman, Software Developer</h1>
+            <h2>
+                <Link to='/'>Home</Link>&nbsp;|&nbsp; 
+                <Link to='/projects'>Projects</Link>&nbsp;|&nbsp;  
+                <Link to='/resume'>Resume</Link>&nbsp;|&nbsp;  
+                <Link to='/contact'>Contact</Link>
+            </h2>
+        </header>
     );
 }
 

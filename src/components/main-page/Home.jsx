@@ -4,12 +4,6 @@ const Home = () => {
             <section>
                 <h2>About Me</h2>
 
-                <img 
-                    src='/images/profile-pic.JPEG' 
-                    alt='The site author smiling in front of a trail map'
-                    style={{ width: '200px', height: 'auto'}}
-                />
-
                 <h3>The bio</h3>
                 <ul>
                     <li>Dad of two cats and an Iggy</li>
@@ -19,9 +13,9 @@ const Home = () => {
                 </ul>
                 
                 <img 
-                    src='/images/chloe.JPEG'
-                    alt='A gray tabby cat wearing a birthday hat'
-                    style={{ width: '200px', height: 'auto'}}
+                    src='/images/profile-pic.JPEG' 
+                    alt='The site author smiling in front of a trail map'
+                    className="profile-pic"
                 />
 
                 <h3>The stack</h3>
@@ -31,10 +25,10 @@ const Home = () => {
                     <li>Tools: Git/GitHub, npm, Vite</li>
                 </ul>
 
-                <img
-                    src='images/stella.JPEG'
-                    alt='A calico cat in a cat tree looking at the camera'
-                    style={{ width: '200px', height: 'auto'}}
+                <img 
+                    src='/images/petsTriFold.png'
+                    alt='Two cute cats and an adorable dog'
+                    className="landscape-pic"
                 />
 
                 <h3>The objectives</h3>
@@ -45,11 +39,6 @@ const Home = () => {
                     <li>Build strong fundamentals while helping grow a positive engineering culture</li>
                 </ul>
 
-                <img 
-                    src='images/luigi.JPEG'
-                    alt='An excited Italian greyhound with his tongue out'
-                    style={{ width: '200px', height: 'auto'}}
-                />
 
             </section>
         </>
