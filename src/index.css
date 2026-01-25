@@ -26,10 +26,21 @@ h1 {
   color: #4B576C
 }
 
+img {
+  border-radius: 25px;
+  border: 8px solid #4B576C;
+}
+
+ul {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
 a {
   color: #4B576C;
   text-decoration: none;
-  transition: color 0.3s ease; /* length of time to change color */
+  transition: color 0.3s ease;
+  font-weight: bold; /* length of time to change color */
 }
 
 a:hover { /* effects on hover */
@@ -43,8 +54,8 @@ a:hover { /* effects on hover */
 }
 
 .landscape-pic {
-  max-width: 800px;
-  height: auto
+  max-width: 700px;
+  height: auto;
 }
 
 .header-container {
@@ -60,6 +71,43 @@ a:hover { /* effects on hover */
   align-items: center;
   background-color: #A7B7A9;
   color: #4B576C;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centered-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+.github-logo, .globe-logo {
+  transition: filter 0.3s ease; /* smooth transition to color */
+}
+
+.globe-logo:hover, .github-logo:hover {
+  filter: drop-shadow(2px 4px 6px rgba(233, 102, 94, 1)); /* shadow effect */
+}
+
+.github-logo {
+  height: 50px;
+  width: auto;
+  border: none;
+  padding: 5px;
+  margin-top: -10px;
+}
+
+.globe-logo {
+  height: 40px;
+  width: auto;
+  border: none;
+  box-sizing: content-box;
 }
 
 
