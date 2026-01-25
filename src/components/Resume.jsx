@@ -6,7 +6,7 @@ const Resume = () => {
             <section>
                 <h1 className='centered'>Resume</h1>
 
-                <a href={resume} download='Resume-Noah-Belman.pdf' className='centered'>
+                <a href={resume} download='Resume-Noah-Belman.pdf' className='centered resume'>
                     Download PDF
                 </a>
 
