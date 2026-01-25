@@ -2,9 +2,9 @@ const Home = () => {
     return (
         <>
             <section>
-                <h2>About Me</h2>
+                <h2 className="centered">About Me</h2>
 
-                <h3>The bio</h3>
+                <h3 className="centered">The bio</h3>
                 <ul>
                     <li>Dad of two cats and an Iggy</li>
                     <li>Recreational runner</li>
@@ -12,26 +12,30 @@ const Home = () => {
                     <li>Metal music enjoyer</li>
                 </ul>
                 
-                <img 
-                    src='/images/profile-pic.JPEG' 
-                    alt='The site author smiling in front of a trail map'
-                    className="profile-pic"
-                />
+                <div className="centered">
+                    <img 
+                        src='/images/profile-pic.JPEG' 
+                        alt='The site author smiling in front of a trail map'
+                        className="profile-pic"
+                    />
+                </div>
 
-                <h3>The stack</h3>
+                <h3 className="centered">The stack</h3>
                 <ul>
                     <li>Frontend: JavaScript (ES6+), React, HTML5, CSS3</li>
                     <li>Backend: Java, SQL</li>
                     <li>Tools: Git/GitHub, npm, Vite</li>
                 </ul>
 
-                <img 
-                    src='/images/petsTriFold.png'
-                    alt='Two cute cats and an adorable dog'
-                    className="landscape-pic"
-                />
+                <div className="centered">
+                    <img 
+                        src='/images/petsTriFold.png'
+                        alt='Two cute cats and an adorable dog'
+                        className="landscape-pic"
+                    />
+                </div>
 
-                <h3>The objectives</h3>
+                <h3 className="centered">The objectives</h3>
                 <ul>
                     <li>Clarify the software development path I want to pursue</li>
                     <li>Explore video game engines and interactive systems as a potential specialization</li>
