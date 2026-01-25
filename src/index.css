@@ -1,68 +1,65 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* Google font: Lexend */
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* colors: 
+palette: https://coolors.co/7584a0-e9665e-a7b7a9-f5dcb4
+blue: #4B576C
+red: #E9665E
+green: #A7B7A9
+tan: #F5DCB4 */
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+#root {
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  flex-direction: column;
   min-height: 100vh;
 }
 
+body {
+  background-color: #F5DCB4;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", sans-serif;
+  /* color: #7584A0; */
+  color: #4B576C
+}
+
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  color: #4B576C
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+a {
+  color: #4B576C;
+  text-decoration: none;
+  transition: color 0.3s ease; /* length of time to change color */
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+a:hover { /* effects on hover */
+  color: #E9665E;
+  text-shadow: 1px 1px 1px #4B576C;
 }
+
+.profile-pic {
+  max-width: 200px;
+  height: auto;
+}
+
+.landscape-pic {
+  max-width: 800px;
+  height: auto
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #A7B7A9;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #A7B7A9;
+  color: #4B576C;
+}
+
+
