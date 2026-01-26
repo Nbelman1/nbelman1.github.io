@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import './App.css'
 import Header from './components/main-page/Header';
 import Home from './components/main-page/Home';
@@ -11,7 +11,7 @@ import Projects from './components/Projects';
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <main>
           <Routes>
@@ -22,7 +22,7 @@ function App() {
           </Routes>
       </main>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
