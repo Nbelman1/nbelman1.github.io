@@ -13,6 +13,10 @@ tan: #F5DCB4 */
   min-height: 100vh;
 }
 
+main {
+  flex: 1;
+}
+
 body {
   background-color: #F5DCB4;
   margin: 0;
@@ -71,6 +75,7 @@ a:hover { /* effects on hover */
   align-items: center;
   background-color: #A7B7A9;
   color: #4B576C;
+  flex-shrink: 0;
 }
 
 .centered {
@@ -126,5 +131,10 @@ a:hover { /* effects on hover */
 
 .resume {
   font-size: 20px;
+  color: #E9665E;
+}
+
+.resume:hover {
+  text-shadow: 1px 1px 1px #4B576C;
   color: #A7B7A9;
 }
