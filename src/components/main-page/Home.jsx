@@ -22,9 +22,9 @@ const Home = () => {
 
                 <h3 className="centered">The stack</h3>
                 <ul>
-                    <li>Frontend: JavaScript (ES6+), React, HTML5, CSS3</li>
-                    <li>Backend: Java, SQL</li>
-                    <li>Tools: Git/GitHub, npm, Vite</li>
+                    <li>Languages: JavaScript, Java, HTML, CSS</li>
+                    <li>Frameworks: React, Spring Boot</li>
+                    <li>Tools: Git/GitHub, npm, Postman, MySQL</li>
                 </ul>
 
                 <div className="centered">
@@ -38,11 +38,11 @@ const Home = () => {
                 <h3 className="centered">The objectives</h3>
                 <ul>
                     <li>Clarify the software development path I want to pursue</li>
-                    <li>Explore video game engines and interactive systems as a potential specialization</li>
                     <li>Secure a developer role contributing to meaningful, real-world projects</li>
                     <li>Build strong fundamentals while helping grow a positive engineering culture</li>
                 </ul>
 
+                <br/ >
 
             </section>
         </>
