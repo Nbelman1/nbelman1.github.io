@@ -4,15 +4,25 @@ const Resume = () => {
   return (
     <>
       <section>
-        <h1 className="centered">Resume</h1>
+        <h1 className="centered">Resume Summary</h1>
 
-        <a
-          href={resume}
-          download="Resume-Noah-Belman.pdf"
-          className="centered resume"
-        >
-          Download PDF
-        </a>
+        <div className="centered">
+
+            <a href='https://github.com/Nbelman1' className="resume">
+                View GitHub
+            </a>
+
+            <br />
+
+            <a
+                href={resume}
+                download="Resume-Noah-Belman.pdf"
+                className="resume"
+            >
+                Download Resume
+            </a>
+
+        </div>
 
         <h2 className="centered">Education</h2>
         <div>
@@ -28,7 +38,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <h2 className="centered">Experience Summary</h2>
+          <h2 className="centered">Experience</h2>
 
           <ul>
 

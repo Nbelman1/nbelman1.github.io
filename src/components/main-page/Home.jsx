@@ -22,9 +22,15 @@ const Home = () => {
 
                 <h3 className="centered">The stack</h3>
                 <ul>
-                    <li>Languages: JavaScript, Java, HTML, CSS</li>
-                    <li>Frameworks: React, Spring Boot</li>
-                    <li>Tools: Git/GitHub, npm, Postman, MySQL</li>
+                    <li>
+                        <strong>Languages:</strong> JavaScript, Java, HTML, CSS
+                    </li>
+                    <li>
+                        <strong>Frameworks:</strong> React, Spring Boot
+                    </li>
+                    <li>
+                        <strong>Tools:</strong> Git/GitHub, npm, Postman, MySQL
+                    </li>
                 </ul>
 
                 <div className="centered">
